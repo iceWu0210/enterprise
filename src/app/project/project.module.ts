@@ -5,11 +5,12 @@ import { ProjectItemComponent } from './project-item/project-item.component';
 import { NewProjectComponent } from './new-project/new-project.component';
 import { InviteComponent } from './invite/invite.component';
 import { ProjectRoutingModule } from './project-routing.module'
+import { ConfirmDialogComponent} from '../shared/confirm-dialog/confirm-dialog.component'
 
 @NgModule({
   imports: [
     SharedModule,
-    ProjectRoutingModule
+    ProjectRoutingModule,
   ],
   declarations: [
     ProjectListComponent,

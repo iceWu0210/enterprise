@@ -10,8 +10,9 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  overflow: scroll;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  // overflow-y:
 }
 
 .list-container{
